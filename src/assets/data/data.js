@@ -37,8 +37,8 @@ export const data = {
             date: '14',
             day: 'Minggu',
             hours: {
-                start: '11.00',
-                finish: 'Selesai'
+                start: '12.00',
+                finish: '13.00'
             }
         },
         address: 'Gedung Serbaguna Balai Kalurahan Timbulharjo'
