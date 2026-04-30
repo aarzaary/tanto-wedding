@@ -1,7 +1,7 @@
 export const data = {
     bride: {
         L: {
-            id: 1,
+            id: 2,
             name: 'Widartanto',
             child: 'Putra kedua',
             father: 'Sarjono',
@@ -9,7 +9,7 @@ export const data = {
             image: './src/assets/images/cowo.jpg'
         },
         P: {
-            id: 2,
+            id: 1,
             name: 'Oktaviani Linggar Sari',
             child: 'Putri pertama',
             father: 'Jarwadi',

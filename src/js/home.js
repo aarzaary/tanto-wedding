@@ -10,12 +10,12 @@ export const home = () => {
         return `
             <img src="${coupleImage}" alt="couple animation">
             <figcaption>
-                ${brideLName.split(' ')[0]} & ${bridePName.split(' ')[0]}
+                ${bridePName.split(' ')[0]} & ${brideLName.split(' ')[0]}
             </figcaption>`;
     };
 
     const generateTimeContent = ({time}) => {
-        const {year, month, date, day} = time.marriage;
+        const {year, month, date, day} = time.reception;
         return `
         <time datetime="${year}-${String(monthNameToNumber(month)).padStart(2, '0')}-${String(date).padStart(2, '0')}">
             ${day}, ${date} ${month} ${year}
