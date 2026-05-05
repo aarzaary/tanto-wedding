@@ -14,10 +14,10 @@ export const data = {
             child: 'Putri pertama',
             father: 'Jarwadi',
             mother: 'Parjiyati',
-            image: './src/assets/images/cewe.jpg'
+            image: './src/assets/images/cewe.png'
         },
 
-        couple: './src/assets/images/couple.jpg'
+        couple: './src/assets/images/couple.png'
     },
 
     time: {
