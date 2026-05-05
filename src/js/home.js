@@ -10,7 +10,7 @@ export const home = () => {
         return `
             <img src="${coupleImage}" alt="couple animation">
             <figcaption>
-                "Okta & Tanto
+                "Oktavia & Tanto
             </figcaption>`;
     };
 
