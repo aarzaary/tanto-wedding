@@ -9,7 +9,7 @@ export const time = () => {
     const createTimeListItem = (title, details) => (
         `<h3>${title}</h3>` +
         (title === 'Akad' ? `<p><strong><i>(Keluarga & Teman dekat)</i></strong></p><p>${details.day}, ${details.date} ${details.month} ${details.year} <br> 
-         Pukul ${details.hours.start} WIB</p> <br> KUA Kapanewon Sewon` : `<p>${details.day}, ${details.date} ${details.month} ${details.year} <br> 
+         Pukul ${details.hours.start} WIB</p> <br> <strong>KUA Kapanewon Sewon</strong>` : `<p>${details.day}, ${details.date} ${details.month} ${details.year} <br> 
          Pukul ${details.hours.start} sd ${details.hours.finish} WIB</p>`)
     );
 
